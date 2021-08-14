@@ -21,7 +21,7 @@ import os
 from logging.handlers import RotatingFileHandler
 from time import time
 
-from .sample_config import Config
+from .config import Config
 
 
 # TODO: is there a better way?
