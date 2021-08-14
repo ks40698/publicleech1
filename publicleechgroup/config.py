@@ -17,7 +17,7 @@ class Config:
     API_HASH = "f565b00bbe3ad9c6748e39a3a71d16e7"
     # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = [-1001199115006, -1001399288270]
+    AUTH_CHANNEL = [-1001399288270]
     
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "/"
