@@ -203,7 +203,7 @@ async def fake_etairporpa_call(
         await sent_message_to_update_tg_p.reply_text(
             "Your file is uploaded in the GDrive\n"
             "You can find your file here"
-            f"\n\nhttps://drive.google.com/open?id={r_clone_conf_file}"
+            f"\n\nhttps://hx-indix.herokuapp.com/AnyDl/TorToolKitLeech/"
         )
         return True, None
 
