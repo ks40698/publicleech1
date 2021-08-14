@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 #  -*- coding: utf-8 -*-
 #  Copyright (C) 2020 PublicLeech Authors
@@ -22,13 +23,13 @@ import shutil
 import sys
 import time
 import traceback
-from tobrot import (
+from publicleechgroup import (
     BOT_START_TIME,
     LOGGER,
     LOG_FILE_ZZGEVC,
     MAX_MESSAGE_LENGTH
 )
-from tobrot.helper_funcs.download_aria_p_n import (
+from publicleechgroup.helper_funcs.download_aria_p_n import (
     aria_start
 )
 from publicleechgroup.helper_funcs.upload_to_tg import upload_to_tg
@@ -80,7 +81,7 @@ async def status_message_f(client, message):
         msg += f"<code>{Commandi.CANCEL} {current_gid}</code>"
         msg += " | "
         msg += "\n\n"
-    LOGGER.INFO(msg)
+    LOGGER.info(msg)
 
     if msg == "":
         msg = Loilacaztion.NO_TOR_STATUS
