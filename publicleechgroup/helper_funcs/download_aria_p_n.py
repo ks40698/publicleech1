@@ -201,8 +201,8 @@ async def fake_etairporpa_call(
         # temporary hard coded id for Google Drive only. :\
         # TODO
         await sent_message_to_update_tg_p.reply_text(
-            "files might be uploaded in the desired remote "
-            "please check Logs for any errors"
+            "Your file is uploaded in the GDrive\n"
+            "You can find your file here"
             f"\n\nhttps://drive.google.com/open?id={remote_file_id}"
         )
         return True, None
@@ -315,16 +315,16 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 except:
                     pass
                 #
-                msg = f"\nDownloading File: <code>{downloading_dir_name}</code>"
-                msg += f"\nSpeed: {file.download_speed_string()} 🔽 / {file.upload_speed_string()} 🔼"
-                msg += f"\nProgress: {file.progress_string()}"
-                msg += f"\nTotal Size: {file.total_length_string()}"
-                msg += f"\n<b>Info:</b>| P: {file.connections} |"
+                msg = f"<b>\nDownloading File: <code>{downloading_dir_name}</code></b>"
+                msg += f"<b>\nSpeed: {file.download_speed_string()} 🔽 / {file.upload_speed_string()} 🔼</b>"
+                msg += f"<b>\nProgress: {file.progress_string()}</b>"
+                msg += f"<b>\nTotal Size: {file.total_length_string()}</b>"
+                msg += f"<b>\n<b>Info:</b>| P: {file.connections} |</b>"
                 if file.seeder is False:
                     """https://t.me/c/1220993104/670177"""
-                    msg += f"| S: {file.num_seeders} |"
-                # msg += f"\nStatus: {file.status}"
-                msg += f"\nETA: {file.eta_string()}"
+                    msg += f"<b>| S: {file.num_seeders} |</b>"
+                # msg += f"<b>\nStatus: {file.status}</b>"
+                msg += f"<b>\nETA: {file.eta_string()}</b>"
                 msg += f"\n<code>/cancel {gid}</code>"
                 # LOGGER.info(msg)
                 if msg != previous_message:
