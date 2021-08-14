@@ -80,7 +80,6 @@ SLEEP_THRES_HOLD = int(Config.SLEEP_THRES_HOLD)
 
 SUDO_USERS = Config.SUDO_USERS
 
-
 def LOGGER(name: str) -> logging.Logger:
     """ get a Logger object """
     return logging.getLogger(name)
