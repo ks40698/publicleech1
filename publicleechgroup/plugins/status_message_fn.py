@@ -22,13 +22,13 @@ import shutil
 import sys
 import time
 import traceback
-from publicleechgroup import (
+from tobrot import (
     BOT_START_TIME,
     LOGGER,
     LOG_FILE_ZZGEVC,
     MAX_MESSAGE_LENGTH
 )
-from publicleechgroup.helper_funcs.download_aria_p_n import (
+from tobrot.helper_funcs.download_aria_p_n import (
     aria_start
 )
 from publicleechgroup.helper_funcs.upload_to_tg import upload_to_tg
