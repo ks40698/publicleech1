@@ -20,57 +20,57 @@ from .get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech@tortoolkitleechbot"
+        "leech@hxleechbot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge@tortoolkitleechbot"
+        "purge@hxleechbot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl@tortoolkitleechbot"
+        "ytdl@hxleechbot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status@tortoolkitleechbot"
+        "status@hxleechbot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel@tortoolkitleechbot"
+        "cancel@hxleechbot"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec@tortoolkitleechbot"
+        "exec@hxleechbot"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
-        "eval@tortoolkitleechbot"
+        "eval@hxleechbot"
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename@tortoolkitleechbot"
+        "rename@hxleechbot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload@tortoolkitleechbot"
+        "upload@hxleechbot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help@tortoolkitleechbot"
+        "help@hxleechbot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail@tortoolkitleechbot"
+        "savethumbnail@hxleechbot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail@tortoolkitleechbot"
+        "clearthumbnail@hxleechbot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
-        "getrcloneconfuri@tortoolkitleechbot"
+        "getrcloneconfuri@hxleechbot"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMANDI_UPLOAD_LOG_FILE",
-        "log@tortoolkitleechbot"
+        "log@hxleechbot"
     )
