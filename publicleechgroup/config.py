@@ -66,7 +66,7 @@ class Config:
     # add offensive API
     TG_OFFENSIVE_API = get_config("TG_OFFENSIVE_API", None)
     # URL for the rclone configuration
-    R_CLONE_CONF_URI = ""
+    R_CLONE_CONF_URI = "https://t.me/publicleech689/7734"
     # Destination folder for the rclone
     R_CLONE_DEST = "/PublicLeech"
     # because, https://t.me/c/1494623325/5603
@@ -76,7 +76,7 @@ class Config:
     #
     SP_LIT_ALGO_RITH_M = get_config(
         "SP_LIT_ALGO_RITH_M",
-        "hjs"
+        "rar"
     )
     #
     DIS_ABLE_ST_GFC_COMMAND_I = get_config(
