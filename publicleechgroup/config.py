@@ -68,7 +68,7 @@ class Config:
     # URL for the rclone configuration
     R_CLONE_CONF_URI = "https://t.me/publicleech689/7734"
     # Destination folder for the rclone
-    R_CLONE_DEST = "/TorToolKit Leech"
+    R_CLONE_DEST = "/TorToolKitLeech"
     # because, https://t.me/c/1494623325/5603
     SHOULD_USE_BUTTONS = "True"
     #
