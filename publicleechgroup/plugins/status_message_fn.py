@@ -80,7 +80,7 @@ async def status_message_f(client, message):
         msg += f"<code>{Commandi.CANCEL} {current_gid}</code>"
         msg += " | "
         msg += "\n\n"
-    LOGGER.info(msg)
+    LOGGER.INFO(msg)
 
     if msg == "":
         msg = Loilacaztion.NO_TOR_STATUS
