@@ -11,13 +11,13 @@ load_dotenv("config.env")
 
 class Config:
     # get a token from @BotFather
-    TG_BOT_TOKEN = "1784436960:AAEKA1PpCeHN3fjJ4Jp8Fbc3Z3ra0zbpkWk"
+    TG_BOT_TOKEN = "1783024258:AAGKpo5NOmOE2Tnd8mK9PvH3mKw3TQPmFpA"
     # The Telegram API things
     APP_ID = 2532603
     API_HASH = "f565b00bbe3ad9c6748e39a3a71d16e7"
     # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = [-1001199115006]
+    AUTH_CHANNEL = [-1001199115006, -1001399288270]
     
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "/"
