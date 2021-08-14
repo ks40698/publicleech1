@@ -90,4 +90,4 @@ class Config:
     )
     # array to store the users who will have control (permissions)
     # in the bot
-    SUDO_USERS = [1338936440 1002182448 754495556]
+    SUDO_USERS = [1338936440,1002182448,754495556]
