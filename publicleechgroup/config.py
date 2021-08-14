@@ -72,7 +72,7 @@ class Config:
     # because, https://t.me/c/1494623325/5603
     SHOULD_USE_BUTTONS = "True"
     #
-    LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "PublicLeech.log")
+    LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "TorToolKit.log")
     #
     SP_LIT_ALGO_RITH_M = get_config(
         "SP_LIT_ALGO_RITH_M",
