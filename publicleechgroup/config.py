@@ -11,13 +11,13 @@ load_dotenv("config.env")
 
 class Config:
     # get a token from @BotFather
-    TG_BOT_TOKEN = "1783024258:AAGKpo5NOmOE2Tnd8mK9PvH3mKw3TQPmFpA"
+    TG_BOT_TOKEN = "1784436960:AAEKA1PpCeHN3fjJ4Jp8Fbc3Z3ra0zbpkWk"
     # The Telegram API things
     APP_ID = 2532603
     API_HASH = "f565b00bbe3ad9c6748e39a3a71d16e7"
     # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = [-1001399288270]
+    AUTH_CHANNEL = [-1001199115006]
     
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "/"
@@ -68,11 +68,11 @@ class Config:
     # URL for the rclone configuration
     R_CLONE_CONF_URI = "https://t.me/publicleech689/7734"
     # Destination folder for the rclone
-    R_CLONE_DEST = "/TorToolKitLeech"
+    R_CLONE_DEST = "/PublicLeech"
     # because, https://t.me/c/1494623325/5603
     SHOULD_USE_BUTTONS = "True"
     #
-    LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "TorToolKit.log")
+    LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "PublicLeech.log")
     #
     SP_LIT_ALGO_RITH_M = get_config(
         "SP_LIT_ALGO_RITH_M",
